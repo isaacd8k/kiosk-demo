@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_strings_menu_events",
+  "info": {
+    "name": "MENU_EVENTS",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "XX_fieldName": {
+      "type": "string",
+      "required": true
+    },
+    "regConventions": {
+      "type": "string",
+      "required": true
+    },
+    "circuitAssemblies": {
+      "type": "string",
+      "required": true
+    },
+    "eventHelp": {
+      "type": "string",
+      "required": true
+    },
+    "seeEventSchedule": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

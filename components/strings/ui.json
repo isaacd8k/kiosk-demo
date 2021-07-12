@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_strings_uis",
+  "info": {
+    "name": "UI",
+    "icon": "hippo"
+  },
+  "options": {},
+  "attributes": {
+    "open": {
+      "type": "string",
+      "required": true
+    },
+    "close": {
+      "type": "string",
+      "required": true
+    },
+    "endSession": {
+      "type": "string",
+      "required": true
+    },
+    "help": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

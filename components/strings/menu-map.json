@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_strings_menu_maps",
+  "info": {
+    "name": "MENU_MAP",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bathrooms": {
+      "type": "string",
+      "required": true
+    },
+    "waterFountains": {
+      "type": "string",
+      "required": true
+    },
+    "firstAid": {
+      "type": "string",
+      "required": true
+    },
+    "donations": {
+      "type": "string",
+      "required": true
+    },
+    "viewMapDirectory": {
+      "type": "string",
+      "required": true
+    },
+    "XX_fieldName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

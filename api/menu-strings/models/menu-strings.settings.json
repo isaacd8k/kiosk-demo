@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_strings",
+  "info": {
+    "name": "Menu Strings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Map": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "strings.menu-map",
+      "required": true
+    },
+    "Events": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "strings.menu-events",
+      "required": true
+    }
+  }
+}
