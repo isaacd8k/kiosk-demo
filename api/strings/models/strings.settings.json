@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "strings",
   "info": {
-    "name": "Global Strings",
+    "name": "Global Settings",
     "description": ""
   },
   "options": {
@@ -32,6 +32,20 @@
       },
       "type": "string",
       "required": true
+    },
+    "BackgroundImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
