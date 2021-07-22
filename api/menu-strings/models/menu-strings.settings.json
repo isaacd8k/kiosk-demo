@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "menu_strings",
   "info": {
-    "name": "Menu Strings",
+    "name": "Menu Page",
     "description": ""
   },
   "options": {
@@ -36,6 +36,33 @@
         }
       },
       "component": "strings.menu-events",
+      "required": true
+    },
+    "mapTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "eventsTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "pageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
       "required": true
     }
   }

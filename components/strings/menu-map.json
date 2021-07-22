@@ -26,10 +26,6 @@
     "viewMapDirectory": {
       "type": "string",
       "required": true
-    },
-    "XX_fieldName": {
-      "type": "string",
-      "required": true
     }
   }
 }

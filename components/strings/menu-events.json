@@ -1,15 +1,12 @@
 {
   "collectionName": "components_strings_menu_events",
   "info": {
-    "name": "MENU_EVENTS",
-    "icon": "calendar-alt"
+    "name": "EVENTS",
+    "icon": "audio-description",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "XX_fieldName": {
-      "type": "string",
-      "required": true
-    },
     "regConventions": {
       "type": "string",
       "required": true
