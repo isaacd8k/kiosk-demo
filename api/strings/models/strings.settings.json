@@ -33,19 +33,15 @@
       "type": "string",
       "required": true
     },
-    "BackgroundImg": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
+    "BackgroundImage": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
-      }
+      },
+      "component": "media.background-image"
     }
   }
 }
