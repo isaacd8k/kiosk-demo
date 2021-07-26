@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_utils_menu_buttons",
+  "info": {
+    "name": "MenuButtons",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "urlRelativePath": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "menu_strings",
+  "collectionName": "menu_pages",
   "info": {
-    "name": "Menu Page2",
+    "name": "Menu Page",
     "description": ""
   },
   "options": {
@@ -16,6 +16,15 @@
     }
   },
   "attributes": {
+    "pageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
     "Map": {
       "type": "component",
       "repeatable": false,
@@ -24,7 +33,7 @@
           "localized": true
         }
       },
-      "component": "utils.menu-map",
+      "component": "pages-menu.map",
       "required": true
     },
     "Events": {
@@ -35,34 +44,7 @@
           "localized": true
         }
       },
-      "component": "utils.menu-events",
-      "required": true
-    },
-    "mapTitle": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "eventsTitle": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "pageTitle": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
+      "component": "pages-menu.events",
       "required": true
     }
   }

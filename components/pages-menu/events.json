@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pages_menu_events",
+  "info": {
+    "name": "Events",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "EventsMenuItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.menu-buttons",
+      "required": true,
+      "max": 5
+    }
+  }
+}

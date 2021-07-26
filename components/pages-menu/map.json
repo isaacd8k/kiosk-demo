@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pages_menu_maps",
+  "info": {
+    "name": "Map",
+    "icon": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "MapMenuItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.menu-buttons",
+      "required": true,
+      "max": 5
+    }
+  }
+}
