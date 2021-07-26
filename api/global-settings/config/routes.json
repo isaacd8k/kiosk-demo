@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/strings",
-      "handler": "strings.find",
+      "path": "/global-settings",
+      "handler": "global-settings.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/strings",
-      "handler": "strings.update",
+      "path": "/global-settings",
+      "handler": "global-settings.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/strings",
-      "handler": "strings.delete",
+      "path": "/global-settings",
+      "handler": "global-settings.delete",
       "config": {
         "policies": []
       }

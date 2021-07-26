@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "strings",
+  "collectionName": "global_settings",
   "info": {
     "name": "Global Settings",
     "description": ""
@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -17,12 +17,13 @@
   },
   "attributes": {
     "kioskTitle": {
-      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string",
+      "required": false
     },
     "venueName": {
       "pluginOptions": {
@@ -30,15 +31,14 @@
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "BackgroundImage": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "component": "media.background-image"
