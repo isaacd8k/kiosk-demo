@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_pages_menu_events_images",
+  "info": {
+    "name": "EventsImages",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "regConventions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "circuitAssemblies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "eventInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "viewAll": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    }
+  }
+}

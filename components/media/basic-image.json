@@ -1,15 +1,11 @@
 {
-  "collectionName": "components_utils_menu_buttons",
+  "collectionName": "components_media_basic_images",
   "info": {
-    "name": "MenuButtons",
-    "icon": "address-book"
+    "name": "BasicImage",
+    "icon": "arrows-alt"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -20,9 +16,11 @@
       "required": false,
       "pluginOptions": {}
     },
-    "urlRelativePath": {
-      "type": "string",
-      "required": true
+    "alt": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pages_menu_directory_images",
+  "info": {
+    "name": "DirectoryImages",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "bathrooms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "waterFountains": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "firstAid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "donations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    },
+    "viewAll": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.basic-image"
+    }
+  }
+}

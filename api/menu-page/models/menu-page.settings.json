@@ -25,7 +25,7 @@
       "type": "string",
       "required": true
     },
-    "Map": {
+    "directorySection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -33,10 +33,20 @@
           "localized": true
         }
       },
-      "component": "pages-menu.map",
+      "component": "pages-menu.directory",
       "required": true
     },
-    "Events": {
+    "directoryImages": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "pages-menu.directory-images"
+    },
+    "eventsSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -46,6 +56,16 @@
       },
       "component": "pages-menu.events",
       "required": true
+    },
+    "eventsImages": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "pages-menu.events-images"
     }
   }
 }
