@@ -25,7 +25,7 @@
       "type": "string",
       "required": true
     },
-    "directorySection": {
+    "directory": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -36,17 +36,7 @@
       "component": "pages-menu.directory",
       "required": true
     },
-    "directoryImages": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "pages-menu.directory-images"
-    },
-    "eventsSection": {
+    "events": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -56,16 +46,6 @@
       },
       "component": "pages-menu.events",
       "required": true
-    },
-    "eventsImages": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "pages-menu.events-images"
     }
   }
 }

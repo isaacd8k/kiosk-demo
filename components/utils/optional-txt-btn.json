@@ -1,7 +1,7 @@
 {
   "collectionName": "components_utils_optional_txt_btns",
   "info": {
-    "name": "ToggleTxtBtn",
+    "name": "ToggleMenuButton",
     "icon": "address-card",
     "description": ""
   },

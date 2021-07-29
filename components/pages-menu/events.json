@@ -14,25 +14,24 @@
     "regConventions": {
       "type": "component",
       "repeatable": false,
-      "component": "utils.optional-txt-btn",
-      "required": true
+      "component": "pages-menu.menu-item"
     },
     "circuitAssemblies": {
       "type": "component",
       "repeatable": false,
-      "component": "utils.optional-txt-btn",
-      "required": true
+      "required": true,
+      "component": "pages-menu.menu-item"
     },
     "eventInfo": {
       "type": "component",
       "repeatable": false,
-      "component": "utils.optional-txt-btn",
+      "component": "pages-menu.menu-item",
       "required": true
     },
     "viewAll": {
       "type": "component",
       "repeatable": false,
-      "component": "utils.optional-txt-btn",
+      "component": "pages-menu.menu-item",
       "required": true
     }
   }
