@@ -25,6 +25,17 @@
       "type": "string",
       "required": true
     },
+    "directory": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-menu.directory",
+      "required": true
+    },
     "events": {
       "type": "component",
       "repeatable": false,
@@ -33,7 +44,8 @@
           "localized": true
         }
       },
-      "component": "pages-menu.events"
+      "component": "pages-menu.events",
+      "required": true
     }
   }
 }
