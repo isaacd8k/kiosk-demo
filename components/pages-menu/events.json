@@ -11,28 +11,11 @@
       "type": "string",
       "required": true
     },
-    "regConventions": {
+    "menuItems": {
       "type": "component",
-      "repeatable": false,
-      "component": "pages-menu.menu-item"
-    },
-    "circuitAssemblies": {
-      "type": "component",
-      "repeatable": false,
-      "required": true,
-      "component": "pages-menu.menu-item"
-    },
-    "eventInfo": {
-      "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "pages-menu.menu-item",
-      "required": true
-    },
-    "viewAll": {
-      "type": "component",
-      "repeatable": false,
-      "component": "pages-menu.menu-item",
-      "required": true
+      "max": 5
     }
   }
 }
