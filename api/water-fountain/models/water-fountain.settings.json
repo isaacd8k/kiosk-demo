@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "water_fountains",
+  "info": {
+    "name": "Water fountain"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "model": "locations"
+    }
+  }
+}

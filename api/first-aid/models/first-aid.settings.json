@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "first_aids",
+  "info": {
+    "name": "First aid"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "model": "locations"
+    }
+  }
+}

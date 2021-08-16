@@ -24,6 +24,16 @@
       },
       "type": "string",
       "required": true
+    },
+    "tapWidget": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-map.tap-widget"
     }
   }
 }
