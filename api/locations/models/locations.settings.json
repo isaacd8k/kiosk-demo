@@ -10,23 +10,43 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "fullname": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "code": {
-      "type": "string",
-      "required": true
-    },
-    "level": {
+    "level_name": {
       "type": "enumeration",
       "enum": [
-        "first",
-        "mezz",
-        "second"
-      ]
+        "FIRST",
+        "MEZZ",
+        "SECOND",
+        "THIRD"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "level_num": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
     }
   }
 }

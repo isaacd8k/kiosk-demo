@@ -2,17 +2,52 @@
   "kind": "collectionType",
   "collectionName": "donations",
   "info": {
-    "name": "Donation"
+    "name": "Donation",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "location": {
       "model": "locations"
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "paymentTypesAccepted": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "credit"
+      ],
+      "required": true
+    },
+    "note": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
