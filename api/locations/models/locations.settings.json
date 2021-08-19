@@ -19,6 +19,14 @@
     "code": {
       "type": "string",
       "required": true
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "first",
+        "mezz",
+        "second"
+      ]
     }
   }
 }
