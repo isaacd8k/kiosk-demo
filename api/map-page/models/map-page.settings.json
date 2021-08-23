@@ -33,7 +33,8 @@
           "localized": true
         }
       },
-      "component": "pages-map.tap-widget"
+      "component": "pages-map.tap-widget",
+      "required": true
     }
   }
 }
