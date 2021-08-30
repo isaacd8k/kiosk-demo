@@ -35,6 +35,50 @@
       },
       "component": "pages-map.tap-widget",
       "required": true
+    },
+    "bathroomAmenity": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-map.amenity-type",
+      "required": true
+    },
+    "waterFountainAmenity": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-map.amenity-type",
+      "required": true
+    },
+    "firstAidAmenity": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-map.amenity-type",
+      "required": true
+    },
+    "donationAmenity": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-map.amenity-type",
+      "required": true
     }
   }
 }

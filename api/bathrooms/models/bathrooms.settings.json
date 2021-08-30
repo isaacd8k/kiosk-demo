@@ -42,7 +42,7 @@
         "women",
         "uni"
       ],
-      "required": false
+      "required": true
     },
     "location": {
       "model": "locations"
