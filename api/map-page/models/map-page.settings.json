@@ -79,6 +79,17 @@
       },
       "component": "pages-map.amenity-type",
       "required": true
+    },
+    "maps": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "pages-map.directory-maps",
+      "required": true
     }
   }
 }
