@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_events_translatable_strings",
+  "info": {
+    "name": "translatableStrings",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "circuitAssembly": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
