@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_events_str_generals",
+  "info": {
+    "name": "strGeneral",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "eventThemeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "durationLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

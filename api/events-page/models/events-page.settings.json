@@ -34,58 +34,59 @@
       "type": "string",
       "required": true
     },
-    "regCoHeading": {
+    "general": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "component": "pages-events.str-general",
       "required": true
     },
-    "regCoInfoThemeLabel": {
+    "sectionRegCo": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "component": "pages-events.str-section-reg-co",
       "required": true
     },
-    "regCoInfoDurationLabel": {
+    "sectionCACO": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "component": "pages-events.str-section-caco",
       "required": true
     },
-    "CaCoHeading": {
+    "sectionCABR": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
+      "component": "pages-events.str-section-cabr",
       "required": true
     },
-    "CaBrHeading": {
+    "sectionOtherEvents": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
-    },
-    "otherEventsHeading": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
+      "component": "pages-events.str-section-other-events",
       "required": true
     }
   }

@@ -20,11 +20,13 @@
         "CABR",
         "OTHER"
       ],
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "startDate": {
       "required": true,
-      "type": "date"
+      "type": "date",
+      "pluginOptions": {}
     },
     "eventLanguage": {
       "type": "enumeration",
@@ -36,7 +38,8 @@
         "KO"
       ],
       "required": true,
-      "default": "EN"
+      "default": "EN",
+      "pluginOptions": {}
     },
     "event_season": {
       "via": "seasonal_events",
