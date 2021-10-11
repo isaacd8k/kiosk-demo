@@ -31,14 +31,14 @@
     "eventLanguage": {
       "type": "enumeration",
       "enum": [
-        "EN",
-        "ES",
-        "IT",
-        "PL",
-        "KO"
+        "en",
+        "es",
+        "it",
+        "pl",
+        "ko"
       ],
       "required": true,
-      "default": "EN",
+      "default": "en",
       "pluginOptions": {}
     },
     "event_season": {
