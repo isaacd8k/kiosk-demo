@@ -26,6 +26,10 @@
     "eventLangLabel": {
       "type": "string",
       "required": true
+    },
+    "noEventsFound": {
+      "type": "string",
+      "required": true
     }
   }
 }
