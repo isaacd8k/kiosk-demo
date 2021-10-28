@@ -44,6 +44,10 @@
     "event_season": {
       "via": "seasonal_events",
       "model": "event-season"
+    },
+    "testDateTime": {
+      "type": "datetime",
+      "required": true
     }
   }
 }
