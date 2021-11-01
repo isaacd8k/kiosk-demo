@@ -88,6 +88,15 @@
       },
       "component": "pages-events.str-section-other-events",
       "required": true
+    },
+    "pageDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": false
     }
   }
 }

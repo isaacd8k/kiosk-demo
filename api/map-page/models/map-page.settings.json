@@ -90,6 +90,14 @@
       },
       "component": "pages-map.directory-maps",
       "required": true
+    },
+    "pageDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
